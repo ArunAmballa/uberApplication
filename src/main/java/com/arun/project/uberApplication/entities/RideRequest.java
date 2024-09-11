@@ -42,6 +42,8 @@ public class RideRequest {
     @CreationTimestamp
     private LocalDateTime requestedTime;
 
+    private Double fare;
+
 
 
 

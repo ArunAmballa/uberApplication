@@ -47,9 +47,9 @@ public class Ride {
     @CreationTimestamp
     private LocalDateTime createdTime; // When the driver accepts the ride
 
-
     private Double fare;
 
+    private String otp;
 
     private LocalDateTime startedAt; // When the driver starts the ride
 

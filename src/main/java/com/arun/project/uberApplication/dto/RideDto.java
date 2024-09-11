@@ -20,10 +20,10 @@ public class RideDto {
     private Long id;
 
 
-    private Point pickUpLocation;
+    private PointDto pickUpLocation;
 
 
-    private Point dropOffLocation;
+    private PointDto dropOffLocation;
 
 
     private RiderDto rider;
@@ -42,6 +42,8 @@ public class RideDto {
 
 
     private Double fare;
+
+    private String otp;
 
     private LocalDateTime startedAt; // When the driver starts the ride
 
